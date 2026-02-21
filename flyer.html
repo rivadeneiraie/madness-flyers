@@ -4,138 +4,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flyer Excursiones Alta Montaña</title>
-  <style>
-    body {
-      font-family: 'Montserrat', Arial, sans-serif;
-      background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
-      margin: 0;
-      padding: 0;
-    }
-    .flyer-container {
-      max-width: 700px;
-      margin: 40px auto;
-      background: #fff;
-      border-radius: 18px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-      padding: 32px 24px;
-    }
-    .section {
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 32px;
-      background: #f7fafc;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      padding: 18px;
-    }
-    .section img {
-      width: 140px;
-      height: 140px;
-      object-fit: cover;
-      border-radius: 12px;
-      margin-right: 24px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-    }
-    .section-content {
-      flex: 1;
-    }
-    .section-title {
-      font-size: 1.4em;
-      font-weight: bold;
-      color: #2d3748;
-      margin-bottom: 8px;
-    }
-    .section-desc {
-      font-size: 1em;
-      color: #4a5568;
-      margin-bottom: 6px;
-    }
-    .cta {
-      display: block;
-      width: fit-content;
-      margin: 24px auto 0 auto;
-      background: #3182ce;
-      color: #fff;
-      font-weight: bold;
-      padding: 12px 32px;
-      border-radius: 8px;
-      text-decoration: none;
-      box-shadow: 0 2px 8px rgba(49,130,206,0.15);
-      transition: background 0.2s;
-    }
-    .cta:hover {
-      background: #225ea8;
-    }
-  </style>
 </head>
-<body>
-  <div class="flyer-container">
-    <!-- Logo a la izquierda, título y subtítulo debajo del logo -->
-    <div style="margin-bottom:32px; display:flex; flex-direction:column; align-items:flex-start;">
-      <img src="images/logo.png" alt="Logo Empresa" style="width:120px; height:auto; margin-bottom:12px;">
-      <h1 style="font-size:2em; color:#2d3748; margin:0;">Semana santa + Kilimanjaro - Bolivia y Perú</h1>
-      <div style="font-size:1.1em; color:#4a5568; margin-top:8px;">Bienvenido!! Vamos Juntos a Recorrer un Gran Camino de Aventura…</div>
-    </div>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+  <div style="max-width: 700px; margin: 40px auto; background-color: #ffffff; border: 1px solid #dddddd; border-radius: 8px; padding: 32px 24px;">
 
-    <!-- Sección superior: dos fotos destacadas -->
-    <div style="margin-bottom:32px;">
-      <!-- Primera imagen: alineada a la izquierda, texto a la izquierda -->
-      <div style="display:flex; align-items:center; margin-bottom:18px;">
-        <img src="images/sem01.jpeg" alt="Cerro Fortuna" style="width:220px; height:220px; object-fit:cover; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.10); margin-right:18px;">
-        <div style="text-align:left;">
-          <div style="font-size:1.1em; color:#2d3748; font-weight:bold;">“A” Cerro Fortuna 4360m.</div>
-        </div>
-      </div>
-      <!-- Segunda imagen: alineada a la derecha, texto a su izquierda, debajo de la primera -->
-      <div style="display:flex; align-items:center; justify-content:flex-end; margin-bottom:18px;">
-        <div style="text-align:left; margin-right:18px;">
-          <div style="font-size:1.1em; color:#2d3748; font-weight:bold;">“B” Paisajes de altura</div>
-        </div>
-        <img src="images/sem02.jpeg" alt="Paisajes de altura" style="width:220px; height:220px; object-fit:cover; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
-      </div>
-      <!-- Leyendas debajo de ambas imágenes -->
-      <div style="text-align:left;">
-        <div style="font-size:1em; color:#2d3748;">Fecha= 2 al 5 de abril</div>
-        <div style="font-size:0.98em; color:#4a5568;">Lugar= cordillera de agua negra</div>
-        <div style="font-size:0.98em; color:#4a5568;">Alcarión= campamento base</div>
-        <hr style="border: none; border-top: 1px solid #b3b3b3; margin: 16px 0 0 0; width: 100%;">
-        <h1 style="font-size:2em; color:#2d3748; margin:18px 0 0 0; font-weight:normal;">Kilimanjaro - Africa querida</h1>
-      </div>
-    </div>
+    <!-- Encabezado -->
+    <header style="margin-bottom: 32px; display: flex; flex-direction: column; align-items: flex-start;">
+      <img src="images/logo.png" alt="Logo de la Empresa de Aventura" style="width: 140px; height: auto; margin-bottom: 16px;">
+      <h1 style="font-size: 1.8em; color: #005a9c; margin: 0; font-weight: bold;">Semana Santa + Kilimanjaro - Bolivia y Perú</h1>
+      <p style="font-size: 1.1em; color: #555; margin-top: 8px; margin-bottom: 0;">¡Bienvenido! Vamos Juntos a Recorrer un Gran Camino de Aventura…</p>
+    </header>
 
-    <!-- Sección 1: Techo de África -->
-    <div class="section">
-      <img src="images/kili02.jpeg" alt="Techo de África">
-      <div class="section-content">
-        <div class="section-title">Techo de África</div>
-        <div style="font-size:1em; color:#4a5568;">Fecha= 7 al 20 de julio</div>
-        <div style="font-size:1em; color:#4a5568;">Kilimanjaro - Safari</div>
-      </div>
-    </div>
-    <!-- Sección 2: Otra excursión (puedes cambiar la imagen y textos) -->
-    <div class="section">
-      <img src="images/kili01.jpeg" alt="Kili + safari + Zanzibar">
-      <div class="section-content">
-        <div class="section-title">Kili + safari + Zanzibar</div>
-        <div class="section-desc">Del 7 - 24 de julio</div>
-      </div>
-    </div>
-    <!-- Botón de contacto -->
-    <hr style="border: none; border-top: 1px solid #b3b3b3; margin: 32px 0 18px 0; width: 100%;">
-    <h1 style="font-size:2em; color:#2d3748; margin:0 0 18px 0; font-weight:normal; text-align:left;">Próximamente</h1>
-    <div style="display:flex; gap:24px; margin-bottom:32px;">
-      <div style="flex:1; text-align:left;">
-        <h2 style="font-size:1.3em; color:#3182ce; margin-bottom:8px;">Bolivia</h2>
-        <div style="font-size:1em; color:#4a5568; margin-bottom:8px;">18 - 30 julio</div>
-        <img src="images/bolivia.jpeg" alt="Bolivia" style="width:100%; max-width:220px; height:140px; object-fit:cover; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
-      </div>
-      <div style="flex:1; text-align:left;">
-        <h2 style="font-size:1.3em; color:#3182ce; margin-bottom:8px;">Perú</h2>
-        <div style="font-size:1em; color:#4a5568; margin-bottom:8px;">Varias fechas en julio</div>
-        <img src="images/peru.jpeg" alt="Perú" style="width:100%; max-width:220px; height:140px; object-fit:cover; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
-      </div>
-    </div>
-    <a class="cta" href="mailto:info@empresa.com">¡Reserva tu lugar!</a>
+    <main>
+      <!-- Sección Semana Santa -->
+      <section style="margin-bottom: 32px;">
+        <div style="display: flex; align-items: center; margin-bottom: 24px;">
+          <img src="images/sem01.jpeg" alt="Paisaje montañoso del Cerro Fortuna" style="width: 48%; height: auto; object-fit: cover; border-radius: 8px; margin-right: 24px; border: 1px solid #eee;">
+          <div style="text-align: left;">
+            <h2 style="font-size: 1.2em; color: #333; font-weight: bold;">“A” Cerro Fortuna 4360m.</h2>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: flex-end; margin-bottom: 24px;">
+          <div style="text-align: left; margin-right: 24px;">
+            <h2 style="font-size: 1.2em; color: #333; font-weight: bold;">“B” Paisajes de altura</h2>
+          </div>
+          <img src="images/sem02.jpeg" alt="Persona caminando en un paisaje de alta montaña" style="width: 48%; height: auto; object-fit: cover; border-radius: 8px; border: 1px solid #eee;">
+        </div>
+        <div style="text-align: left; padding-top: 16px;">
+          <p style="font-size: 1em; color: #333; margin: 0;"><strong>Fecha:</strong> 17 al 20 de abril de 2026</p>
+          <p style="font-size: 1em; color: #555; margin: 4px 0;"><strong>Lugar:</strong> Cordillera de Agua Negra</p>
+          <p style="font-size: 1em; color: #555; margin: 4px 0;"><strong>Alojamiento:</strong> Campamento base</p>
+        </div>
+      </section>
+
+      <hr style="border: none; border-top: 2px solid #005a9c; margin: 32px 0;">
+      <h1 style="font-size: 1.8em; color: #005a9c; margin: 0 0 24px 0; font-weight: bold;">Kilimanjaro - Africa Querida</h1>
+
+      <!-- Sección Kilimanjaro -->
+      <section>
+        <div style="display: flex; align-items: center; margin-bottom: 24px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #eee; padding: 18px;">
+          <img src="images/kili02.jpeg" alt="Vista del Monte Kilimanjaro" style="width: 180px; height: 180px; object-fit: cover; border-radius: 8px; margin-right: 24px;">
+          <div style="flex: 1;">
+            <h2 style="font-size: 1.4em; font-weight: bold; color: #333; margin-top: 0; margin-bottom: 8px;">El Techo de África</h2>
+            <p style="font-size: 1em; color: #555; margin: 4px 0;"><strong>Fecha:</strong> 7 al 20 de julio de 2026</p>
+            <p style="font-size: 1em; color: #555; margin: 4px 0;">Kilimanjaro - Safari</p>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 24px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #eee; padding: 18px;">
+          <img src="images/kili01.jpeg" alt="Grupo de excursionistas en el Kilimanjaro" style="width: 180px; height: 180px; object-fit: cover; border-radius: 8px; margin-right: 24px;">
+          <div style="flex: 1;">
+            <h2 style="font-size: 1.4em; font-weight: bold; color: #333; margin-top: 0; margin-bottom: 8px;">Kili + Safari + Zanzibar</h2>
+            <p style="font-size: 1em; color: #555; margin: 4px 0;"><strong>Fecha:</strong> 7 al 24 de julio de 2026</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Próximamente -->
+      <section>
+        <hr style="border: none; border-top: 2px solid #005a9c; margin: 32px 0 18px 0;">
+        <h1 style="font-size: 1.8em; color: #005a9c; margin: 0 0 24px 0; font-weight: bold; text-align: left;">Próximamente</h1>
+        <div style="display: flex; gap: 24px; margin-bottom: 32px;">
+          <div style="flex: 1; text-align: left;">
+            <h2 style="font-size: 1.3em; color: #333; font-weight: bold; margin-bottom: 8px;">Bolivia</h2>
+            <p style="font-size: 1em; color: #555; margin-bottom: 8px;">18 al 30 de agosto de 2026</p>
+            <img src="images/bolivia.jpeg" alt="Paisaje de Bolivia" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 1px solid #eee;">
+          </div>
+          <div style="flex: 1; text-align: left;">
+            <h2 style="font-size: 1.3em; color: #333; font-weight: bold; margin-bottom: 8px;">Perú</h2>
+            <p style="font-size: 1em; color: #555; margin-bottom: 8px;">Varias fechas en septiembre de 2026</p>
+            <img src="images/peru.jpeg" alt="Paisaje de Perú" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 1px solid #eee;">
+          </div>
+        </div>
+      </section>
+
+      <!-- Llamada a la acción -->
+      <a href="mailto:info@empresa.com" style="display: block; width: fit-content; margin: 24px auto 0 auto; background-color: #005a9c; color: #ffffff; font-weight: bold; padding: 14px 35px; border-radius: 8px; text-decoration: none;">¡Reserva tu lugar!</a>
+    </main>
+
+    <!-- Pie de página -->
+    <footer style="text-align: center; margin-top: 40px; padding-top: 24px; border-top: 1px solid #ccc;">
+      <p style="font-size: 0.9em; color: #777; margin: 0;">© 2026 Tu Empresa de Aventura. Todos los derechos reservados.</p>
+      <p style="font-size: 0.9em; color: #777; margin: 8px 0;">
+        <a href="https://www.tuempresa.com" style="color: #005a9c; text-decoration: none;">Sitio Web</a> | 
+        <a href="https://www.instagram.com/tuempresa" style="color: #005a9c; text-decoration: none;">Instagram</a> | 
+        <a href="tel:+123456789" style="color: #005a9c; text-decoration: none;">Llámanos</a>
+      </p>
+    </footer>
+
   </div>
 </body>
 </html>
